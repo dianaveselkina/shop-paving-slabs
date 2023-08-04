@@ -1,0 +1,72 @@
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 79px;
+  background-color: #404040;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.header_address,
+.header_working_mode,
+.header_phone {
+  font: 'Montserrat' 12px 400 15px;
+  color: #ffffff;
+}
+.header_map {
+  height: 34px;
+  width: 34px;
+  padding-left: 10px;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.vertical {
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 45px;
+  position: absolute;
+  top: 17px;
+  padding-left: 547px;
+}
+.vertical1 {
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 45px;
+  position: absolute;
+  top: 17px;
+}
+.header_clock {
+  height: 22px;
+  width: 22px;
+}
+.header_working_mode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.header_phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.header_phone_img {
+  height: 15px;
+  width: 15px;
+}
+.button_order {
+  height: 50px;
+  width: 240px;
+  border-radius: 25px;
+  background-color: white;
+}
