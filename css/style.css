@@ -1,3 +1,7 @@
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 ul,
 ol,
 li {
@@ -132,7 +136,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   width: 1050px;
-  height: 590px;
+  height: 662px;
   margin: auto;
   margin-bottom: 72px;
 }
@@ -154,5 +158,35 @@ a {
   font: 'Montserrat' 16px 700 19px;
   color: #ffffff;
   margin: 0 auto;
+  display: block;
+}
+.about {
+  background-color: #404040;
+  height: 748px;
+}
+.about_block {
+  height: 748px;
+  display: flex;
+  flex-direction: row;
+}
+.about_img {
+  width: 47%;
+}
+.about_description {
+  padding: 79px;
+}
+.about_description_text {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.button_about {
+  height: 60px;
+  width: 266px;
+  border-radius: 30px;
+  background-color: #e05100;
+  font: 'Montserrat' 16px 700 19px;
+  color: #ffffff;
+  margin-top: 74px;
   display: block;
 }
