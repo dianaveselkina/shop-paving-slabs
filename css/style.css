@@ -343,3 +343,36 @@ a {
   margin: auto;
   justify-content: space-between;
 }
+.advantages {
+  height: 1059px;
+  background-color: #404040;
+}
+.advantages_text {
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 80px;
+  color: #ffffff;
+}
+.advantages_description {
+  height: 740px;
+  width: 1060px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.advantages_block {
+  height: 271px;
+  width: 274px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px 54px 28px;
+}
+.advantages_img {
+  height: 90px;
+  width: 90px;
+}
