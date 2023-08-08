@@ -376,3 +376,42 @@ a {
   height: 90px;
   width: 90px;
 }
+.footer_info {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer_text {
+  color: #e05100;
+}
+.working_mode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer_clock_img {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+.footer_information {
+  display: flex;
+  flex-direction: row;
+}
+.footer_phone {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.footer_phone_img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.footer_list_information {
+  margin-bottom: 15px;
+}
+.footer_copyright {
+  text-align: center;
+}
